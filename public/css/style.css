@@ -1,3 +1,136 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://picsum.photos/1600/900?grayscale) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    font-family: 'Redressed', cursive;
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.0px );
+    -webkit-backdrop-filter: blur( 2.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container h1{
+    text-align: center;
+    position: relative;
+    left: 0%;
+    font-size: 30px;
+    margin-bottom: 23px;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(102, 102, 102, 0.534);
+}
+
+.box{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 8px 0px;
+}
+
+.box input{
+    background: none;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    padding: 7px 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+    padding: 0px 7px;
+}
+
+.box ::placeholder{
+    color:rgb(58, 58, 58)
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnlogin{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 36%;
+    background: none;
+    font-weight: bold;
+    background: rgba( 255, 255, 255, 0.7 );
+}
+
+.btnlogin:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: white;
+    opacity: 1;
+}
+
+.btnsignup{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    left: 36%;
+    top: 120%;
+    background: none;
+    font-weight: bold;
+    background: rgba( 255, 255, 255, 0.7 );
+}
+
+.btnsignup:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: white;
+    opacity: 1;
+}
+
+.containersignup{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    font-family: 'Redressed', cursive;
+    background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.0px );
+-webkit-backdrop-filter: blur( 2.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.containersignup h1{
+    text-align: center;
+    position: relative;
+    left: 0%;
+    font-size: 30px;
+    margin-bottom: 23px;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(102, 102, 102, 0.534);
 }

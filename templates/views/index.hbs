@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration form</title>
-</head>
-<body>
-    {{>navbar}}
-    <h1>shantanu</h1>
-</body>
+<html>
+  <head>
+    <!-- Place your kit's code here -->
+    <script
+      src="https://kit.fontawesome.com/22fa1e64a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Log in to my website</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Login to my Website</h1>
+      <div class="box">
+        <i class="fa fa-user"></i>
+        <input type="email" name="email" id="email" placeholder="enter your email ">
+
+      </div>
+     <div class="box">
+        <i class="fa fa-key"></i>
+        <input type="password" name="password" id="password"
+        placeholder="enter your password">
+      </div>
+
+      <div class="buttons">
+        <button class="btnlogin">Log In</button>
+  
+        <button class="btnsignup">Sign Up</button>
+      </div>
+
+    </div>
+ 
+  </body>
 </html>
